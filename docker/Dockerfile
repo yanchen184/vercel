@@ -5,7 +5,7 @@ LABEL maintainer="YC1" \
   org.label-schema.vendor="YC1" \
   org.label-schema.schema-version="1.0"
 
-EXPOSE 3001
+EXPOSE 80
 
 COPY ./config/nginx/nginx.conf /etc/nginx/conf.d/default.conf
 COPY build /usr/share/nginx/html
